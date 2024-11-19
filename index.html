@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./mian.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid mt-1">
+        <div class="row text-md-dark">
+            <div class="col-5 p-4 contenedor">
+                <p class="text-center fs-3 fw-bold text-white">Javascript</p>
+                <div class="form-floating">
+                    <textarea class="form-control js" placeholder="" id="lenguaje-js" style="height: 400px"></textarea>
+                    <label class="text-white" for="lenguaje-js">Ingrese codigo javascript</label>
+                </div>
+            </div>
+    
+            <div class="col-2 d-flex flex-column justify-content-evenly align-items-center contenedor botones">
+                <button type="button" class="btn" id="limpiar">Limpiar</button>
+                <button type="button" class="btn" id="convertir">Convertir</button>
+                <button type="button" class="btn" id="copiar">Copiar</button>
+            </div>
+            
+            <div class="col-5 p-4 contenedor">
+                <p class="text-center fs-3 fw-bold text-white">PHP</p>
+                <div class="form-floating">
+                    <textarea class="form-control php" placeholder="" id="lenguaje-php" style="height: 400px"></textarea>
+                    <label class="text-white" for="lenguaje-php">Codigo PHP</label>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
